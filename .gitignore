@@ -1,0 +1,60 @@
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+node_modules/
+dist/
+lib/
+.vscode/
+.idea/
+coverage/
+types/
+.DS_Store
+.turbo/
+
+packages/solid/src/jsx.d.ts
+packages/solid/h/jsx-runtime/src/jsx.d.ts
+packages/solid/web/server/server.d.ts
+packages/solid/web/src/client.d.ts
+packages/solid/universal/src/universal.d.ts
+
+# vscode devcontainers see issues #419 and #421 for context
+/.devcontainer.json
+/devcontainer
